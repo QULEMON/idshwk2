@@ -1,2 +1,0 @@
-alert tcp any any -> any 3399 (content:"login";content:"Initial";msg:"bot founded";sid:1000001;)
-alert tcp any any -> any 3399 (content:"123.45.6.7:8080";msg:"bot founded";sid:1000002;)
